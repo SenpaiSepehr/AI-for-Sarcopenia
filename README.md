@@ -21,13 +21,13 @@ Sarcopenia is a musculoskeletal disorder defined by loss of muscle mass and func
 
 ## 📊 Results
 
-| Module                     | Metric                        | Performance      |
+| Module                     | Metric                        | Test Performance      |
 |---------------------------|-------------------------------|------------------|
 | L3 Localization (Frontal) | Absolute Error (mm)           | Mean: 2.11 ± 1.95 |
 | L3 Localization (Sagittal)| Absolute Error (mm)           | Mean: 3.44 ± 4.36 |
 | Muscle Segmentation       | Dice Similarity Coefficient   | Mean: 0.913 ± 0.03 |
 
-Our models match or outperform radiologist-level annotation performance across the test set.
+Our models match or outperform radiologist-level annotation performance when assessed on an independent test set.
 
 ## 📁 Download Pretrained Weights
 
