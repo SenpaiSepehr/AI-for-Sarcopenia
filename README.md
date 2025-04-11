@@ -45,7 +45,7 @@ Files to download:
 Clone the repository and ensure dependencies are installed:
 
 ```bash
-git clone https://github.com/yourusername/sarcopenia-ct-pipeline.git
+git clone https://github.com/SenpaiSepehr/AI-for-Sarcopenia.git
 cd sarcopenia-ct-pipeline
 pip install -r requirements.txt
 ```
