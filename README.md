@@ -14,10 +14,10 @@ Sarcopenia is a musculoskeletal disorder defined by loss of muscle mass and func
 ### Pipeline Breakdown:
 
 - **Input:** 3D CT volume
-- **Step 1:** Frontal and sagittal MIP projections generated
-- **Step 2:** YOLOv11 + Transformer models localize L3 slice from MIPs
+- **Step 1:** Generation of frontal and sagittal maximum intensity projections (MIP)
+- **Step 2:** YOLOv11 model localizes L3 slice from MIPs
 - **Step 3:** Hybrid CNN-Transformer model segments skeletal muscle on the L3 slice
-- **Output:** Muscle segmentation mask + sarcopenia indices (e.g., SMA, SMI)
+- **Output:** Skeletal muscle segmentation mask + muscle area measurements (SMA)
 
 ## 📊 Results
 
