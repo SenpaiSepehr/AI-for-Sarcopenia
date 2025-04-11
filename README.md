@@ -46,12 +46,13 @@ Clone the repository and ensure dependencies are installed:
 
 ```bash
 git clone https://github.com/SenpaiSepehr/AI-for-Sarcopenia.git
-cd sarcopenia-ct-pipeline
+cd AI-for-Sarcopenia
 pip install -r requirements.txt
 ```
 
 ## Run Streamlit UI
 ```bash
+cd UI
 python -m streamlit run main.py --server.maxUploadSize=500
 ```
 
