@@ -48,9 +48,11 @@ Clone the repository and ensure dependencies are installed:
 git clone https://github.com/yourusername/sarcopenia-ct-pipeline.git
 cd sarcopenia-ct-pipeline
 pip install -r requirements.txt
+```
 
 ## Run Streamlit UI
 ```bash
 python -m streamlit run main.py --server.maxUploadSize=500
+```
 
 
