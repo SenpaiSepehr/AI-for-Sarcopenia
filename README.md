@@ -40,6 +40,10 @@ Files to download:
 - `best_sagittal_l3localization.pt`
 - `best_segmentation.pt`
 
+🔗 [Download Example Data](https://drive.google.com/drive/folders/1GqGfKJEG5JqPYbE4j2RNQixb5FWINHJN?usp=drive_link](https://drive.google.com/drive/folders/185lembeKTAYMUEB5z3hS212w7fDph88w?usp=sharing)
+
+Five example CT volumes are provided for testing the UI and reproducing results in the Juptyer Notebook/vingette. The volumes are open-source and obtained from the Kaggle Liver and Liver Tumor Segmentation (LiTS) challenge. 
+
 ## 🛠️ Usage
 
 Clone the repository and ensure dependencies are installed:
